@@ -114,6 +114,25 @@ Municipal overlap is a jurisdictional proxy, not proof of actual transit service
 - [ACS 2024 Table B08201](https://data.census.gov/table/ACSDT5Y2024.B08201)
 - [Texas Municipal Boundaries](https://feature.geographic.texas.gov/arcgis/rest/services/City_Boundaries/Texas_City_Boundaries/MapServer/0)
 
+
+## Explore the Project in QGIS
+
+This repository includes a portable QGIS project and five processed GeoPackage datasets.
+
+### Requirements
+- QGIS 3.x
+
+### Getting Started
+1. Select **Code → Download ZIP** and extract the repository.
+2. Open `Dallas_Transit_Accessibility_Portfolio.qgz` in QGIS.
+3. Explore the three layer groups: Transit Proximity, Vehicle Availability Screening, and DART Member-City Jurisdiction Review.
+4. Open the attribute tables to inspect tract-level coverage, ACS screening categories, and municipal overlap results.
+
+The project uses relative paths. Preserve the repository's folder structure when downloading or moving files.
+
+### Reproducibility
+The repository includes selected final analytical datasets and documented GIS methodology. It is not a fully automated raw-data-to-results processing pipeline.
+
 ## Limitations
 
 - Euclidean buffers do not measure walking routes, pedestrian safety, or travel time.
